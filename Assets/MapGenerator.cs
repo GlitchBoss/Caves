@@ -40,7 +40,7 @@ public class MapGenerator : MonoBehaviour {
 	
 	void RandomFillMap() {
 		if (useRandomSeed) {
-			seed = Time.time.ToString ();
+			seed = Time.time.ToString();
 		}
 		
 		System.Random pseudoRandom = new System.Random(seed.GetHashCode());
@@ -103,5 +103,4 @@ public class MapGenerator : MonoBehaviour {
         }
         */
 	}
-	
 }
